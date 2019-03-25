@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_main_drawer_dashboard"
+            android:icon="@drawable/bookmark"
+            android:title="Top articles" />
+    </group>
+    <item android:title="Marques">
+        <menu>
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/activity_main_drawer_Logitech"
+            android:icon="@drawable/logo_logitech"
+            android:title="Logitech" />
+        <item
+            android:id="@+id/activity_main_drawer_steelseries"
+            android:icon="@drawable/steelseries"
+            android:title="Steelseries" />
+
+        <item
+            android:id="@+id/activity_main_drawer_razer"
+            android:icon="@drawable/razer"
+            android:title="Razer" />
+
+        <item
+            android:id="@+id/activity_main_drawer_dx"
+            android:icon="@drawable/bookmark"
+            android:title="DXRacer" />
+
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Catégories">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/activity_main_drawer_souris"
+                android:icon="@drawable/souris"
+                android:title="Souris" />
+
+                <item
+                    android:id="@+id/activity_main_drawer_clavier"
+                    android:icon="@drawable/clavier"
+                    android:title="Clavier" />
+
+                <item
+                android:id="@+id/activity_main_drawer_casque"
+                android:icon="@drawable/casque"
+                android:title="Casque" />
+
+                <item
+                    android:id="@+id/activity_main_drawer_tapis"
+                    android:icon="@drawable/tapis"
+                    android:title="Tapis de souris" />
+
+                <item
+                    android:id="@+id/activity_main_drawer_usb"
+                    android:icon="@drawable/usb"
+                    android:title="Clés usb" />
+
+                <item
+                    android:id="@+id/activity_main_drawer_chaise"
+                    android:icon="@drawable/chaise"
+                    android:title="Chaise de bureau" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Configuration">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/activity_main_drawer_parametres"
+                    android:icon="@drawable/bitcoin"
+                    android:title="Paramètres" />
+
+                <!--
+                <item
+                    android:id="@+id/activity_main_drawer_logout"
+                    android:icon="@drawable/bug"
+                    android:title="Déconnexion" />
+                    -->
+            </group>
+        </menu>
+    </item>
+
+</menu>
